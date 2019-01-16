@@ -3,7 +3,7 @@ import os
 
 MONGODB_URI = os.getenv("MONGO_URI") # os library to set a constant called MONGODB_URI by using getenv method to read in environment variable
 DBS_NAME = "mytestdb"
-COLLECTION_NAME = "MyFirstMDB"
+COLLECTION_NAME = "myFirstMDB"
 
 def mongo_connect(url):
     try: # block
